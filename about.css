@@ -1,0 +1,26 @@
+.mainbody {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.card {
+    background: rgb(221, 221, 224);
+    color: rgb(24, 24, 24);
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgb(233, 231, 231);
+    position:absolute;
+    margin-top: 100px;
+    opacity: .8;
+}
+
+.card h1 {
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px #536dad;
+    text-align: center;
+}
+
+.card hr {
+    border: 1px solid darkgrey;
+}
+
+

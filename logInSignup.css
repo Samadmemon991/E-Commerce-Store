@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #589ed9;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 300px;
+    text-align: center;
+}
+
+#logo img {
+    height: 125px;
+    font-size: 65px;
+}
+
+header h1 {
+    font-size: 32px;
+    padding-bottom: 5px;
+}
+
+form * {
+    border: none;
+    margin: none;
+    padding: 20px 0;
+    outline: none;
+    width: 100%;
+}
+
+form input {
+    text-indent: 20px;
+    font-size: 15px;
+}
+
+#top {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+#pass{
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+#bottom {
+    border-top: 1px solid #ccc;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+span {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+span:nth-child(1){
+    width: 70%;    
+}
+
+span:nth-child(2){
+    width: 30%;
+}
+
+.credit{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+form input[type=submit] {
+    margin: 10px 0;
+    padding-right: 4%;
+    background-color: #2186d4;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+form input[type=submit]:hover {
+    background-color: #062a46;
+    cursor: pointer;
+}
+
+
+p {
+    font-size: 19px;
+    text-shadow: 0 5px 5px #efefef;
+}
+
+p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+h1 {
+    text-shadow: 0 5px 5px #efefef;
+}
+
+.checkBoxText {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0 10px 5px;
+    margin: 0;
+    width: 100%;    
+}
+
+#check {
+    margin-top: 7px;
+    position: absolute;
+    right: 75px;   
+}
+
+.checkBoxText p {
+    padding: 0px;
+    margin-left: 00px;
+    text-align: center;
+}
+
+#InfoBox{
+    background-color: rgb(104, 101, 101);
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    display: inline-flex;
+    box-shadow: inset -2px -2px 5px 1px rgb(34, 33, 33);
+    opacity: 0;
+}
+
+#msg{
+    color: white;
+}
+
